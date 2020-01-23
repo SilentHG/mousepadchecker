@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+        <script>
+            function myfunc()
+            {
+                document.getElementById('p1').innerHTML="Don't Worry, there is a chance that your mousepad is ok";
+                document.getElementById('p2').innerHTML="Probably Needs Cleaning, Watch this video and follow steps.";
+  
+            }
+            function myfuncx()
+            {
+                document.getElementById('p1').innerHTML="Nice Boi !!!";
+                document.getElementById('p2').innerHTML="";
+            }
+            function myfuncd()
+            {
+                document.getElementById('p1').innerHTML="SilentHG";
+                document.getElementById('p2').innerHTML="";
+            }
+            </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <h1> Welcome to MousePad Checker</h1>
+      <p> The accuray of this test is minimal</p>
+      <p> Select the portion of your mousepad(which you think might be non functional)</p>
+      <p> Slowly move your cursor in straight lines</p>
+      <p> if at any point, your cursor stops, that is the place</p>
+      
+       <script src="sketch.js" language="javascript" ></script>
+      <input type="button" onClick="myfunc()" value="Non-Functional Place Detected?">
+      <input type="button" onClick="myfuncx()" value="All Good ?">
+      <input type="button" onClick="myfuncd()" value="Creator ?">
+      
+         <div id="sc">
+<p id="p1"> </p>
+      <p id="p2"> </p>
+      <p id="p3"> </p>
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/YBylHzreYEY">;
+        </iframe>";
+    
+        </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+html, body {
+  
+}
+
+
+canvas {
+    
+    margin-left: 15%;
+    
+    display: block;
+    width: 800px;
+    position: absolute;
+    top: 300px;
+}
+#sc
+{
+    padding-top: 20%;
+    text-align: center;
+    position: relative;
+}
